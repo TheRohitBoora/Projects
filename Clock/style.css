@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgba(29, 26, 26, 0.918);
+  color: #fff;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Baloo 2", sans-serif;
+  font-weight: 600;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 30vh;
+  width: 50vw;
+  padding: 10px;
+  background: rgba(208, 217, 43, 0.14);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(241, 233, 233, 0.488);
+  backdrop-filter: blur(8.3px);
+  border: 1px solid rgba(255, 247, 0, 0.866);
+}
+
+#clock {
+  font-size: 30px;
+  color: #c4f239b1;
+  margin-top: 5px;
+  border-bottom: 1px dotted rgb(230, 222, 115);
+}
+#datediv {
+  margin-top: 10px;
+  color: #d0f239b1;
+  font-size: 30px;
+  text-align: center;
+}
+#date {
+  border-bottom: 1px dotted rgb(230, 222, 115);
+}
