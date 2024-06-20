@@ -23,7 +23,7 @@ function clock() {
 
 
     const period = hours >= 12 ? "PM" : "AM";
-    if (hours === 0) {
+    if (hours === 00) {
         hours = 12; 
     } else if (hours > 12) {
         hours -= 12; 
