@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&display=swap");
 
 body {
-  background-color: rgba(0, 0, 0, 0.81);
+  background-color: #022b42;
   font-family: "Baloo 2", sans-serif;
   display: flex;
   justify-content: center;
@@ -14,8 +14,8 @@ body {
   padding: 10px;
   font-size: 35px;
   border-radius: 20px;
-  background-color: rgba(113, 113, 113, 0.5);
-  color: rgb(223, 191, 31);
+  background-color: #71717180;
+  color: #2092c7;
   border: none;
   text-align: end;
   overflow: hidden;
@@ -36,8 +36,8 @@ input:focus {
   width: 350px;
   background-color: rgb(7, 5, 5);
   border-radius: 20px;
-  filter: drop-shadow(11px 8px 25px #968b19);
-  border: 5px solid rgb(227, 231, 41);
+  filter: drop-shadow(11px 8px 25px #006da4);
+  border: 5px solid #006da4;
 }
 
 button {
@@ -45,18 +45,18 @@ button {
   width: 70px;
   border-radius: 50%;
   font-size: 30px;
-  background-color: #8dde22;
+  background-color: #006da4;
   color: rgb(19, 23, 8);
   cursor: pointer;
   transition: background-color 0.2s;
 }
 
 button:hover {
-  background-color: #89f47d;
+  background-color: #7dc0f4;
 }
 
 button:active {
-  background-color: #bff42e;
+  background-color: #63b4f2;
 }
 
 #buttons {
