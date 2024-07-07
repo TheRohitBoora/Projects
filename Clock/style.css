@@ -2,7 +2,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-color:#395886;
+  background-color:#327ce2;
   color: #fff;
   height: 100vh;
   display: flex;
@@ -20,7 +20,7 @@ body {
   height: 30vh;
   width: 50vw;
   padding: 10px;
-  background:#628ecb;
+  background:transparent;
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(241, 233, 233, 0.488);
   backdrop-filter: blur(8.3px);
